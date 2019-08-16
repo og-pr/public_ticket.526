@@ -1,0 +1,240 @@
+*, *:before, *:after {
+  box-sizing: border-box;
+}
+
+html {
+    text-align: center; 
+    font-family: Arial, Helvetica, sans-serif; 
+    line-height: 1.6;
+    max-width: 1000px !important; 
+    padding: 0;
+    box-sizing: border-box; /* apply a natural box layout model to all elements, but allow components to change */
+    margin: auto;
+    max-width: 100%; /* avoid scrollbar */ 
+    height: 100%; /* avoid scrollbar */
+    font-size: 16px !important;
+    overscroll-behavior: none !important; 
+    -webkit-text-size-adjust: 100%;
+    -ms-text-size-adjust: 100%;
+    -ms-overflow-style: scrollbar;
+    -webkit-tap-highlight-color: transparent;
+}
+
+body {
+  margin: 0;
+  height: 100%;
+  padding: 20px;
+  font: 1em/1.5em sans-serif; /* 12pt = 16px = 1.o em */
+  font-family: Arial, Helvetica, sans-serif; 
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+  monospace;
+}
+
+form {
+  line-height: 30px; 
+  display: inline-block;
+}
+
+input{
+    font-size: inherit;
+    display: block; 
+    padding: 12px 20px;
+    border: solid 1px #aacfe4;
+    width: 450px; /* was 90% - is better to be explicit for control of UI elements ; */
+    margin: 8px 0;
+    box-sizing: border-box;
+}
+
+input:not(:placeholder-shown) {
+  border-color: hsl(0, 76%, 50%);;
+}
+
+input:valid {
+  border-color: hsl(120, 76%, 50%);
+}
+
+.button {
+  border: none;
+  color: white;
+  padding: 10px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  margin: 4px 2px;
+}
+
+.buttonStyle {
+  width: 100px; /* set width = is better to be explicit for control of UI elements */
+  background-color: #1346b8;
+  padding: 10px;
+  border: 0;
+  border-radius: 12px;
+}
+
+.container {
+  flex: 1,
+  padding: 10px;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.formButton {
+  background-color: #007BFF; /* Blue */
+  border: none;
+  color: white;
+  width: 100px;
+  padding: 15px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+}
+
+.formButtonText {
+    color: '#FFFFFF';
+    font-size: 22px;
+    text-align: "center";
+}
+
+.formContainer {
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+}
+
+.imgCenter {
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  -webkit-flex: 1; /* Safari 6.1+ */
+  -ms-flex: 1; /* IE 10 */ 
+  border: 0; 
+  width: 59%;
+  height: 59%; 
+  object-fit: contain;
+}
+
+.imgError { 
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  -webkit-flex: 1; 
+  -ms-flex: 1; 
+  border: 0; 
+  width: 100px; 
+  height: 100px; 
+  object-fit: contain;
+}
+
+.stylesCard {  
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  -webkit-flex: 1; /* Safari 6.1+ */
+  -ms-flex: 1; /* IE 10 */ 
+  width: 100%;
+  display: block;
+  position: relative;
+  border-radius: 4px;
+  margin-bottom: 10px;
+  border: 0px solid rgb(204, 204, 204);
+  color: rgb(0, 0, 0);
+}
+
+.stylesContainer {
+  max-width: 1200px;
+  padding: 0 1rem;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  -webkit-flex: 1; /* Safari 6.1+ */
+  -ms-flex: 1; /* IE 10 */ 
+  border: 0; 
+}
+
+.stylesCenter {
+  padding: 10px;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  -webkit-flex: 1; /* Safari 6.1+ */
+  -ms-flex: 1; /* IE 10 */ 
+  border: 0; 
+}
+
+.textCenter {
+    text-align: center;
+}
+
+.textFooter {
+    align-self: center;
+    color: #ffffff;
+    font-family: inherit;
+    text-align: center;
+    position: relative;
+    top: 30px;
+}
+
+.textStyle {
+    align-self: center;
+    color: #ffffff;
+    font-size: 14px;
+    font-family: inherit;
+    text-align: center;
+}
+
+.was-validated .form-control:valid~.invalid-feedback {
+    display: none;
+}
+
+.textRed {
+    color: red;
+}
+
+.title {
+    color: #000000;
+    font-size: 32px;
+    margin-bottom: 32px;
+}
+
+.topnav {
+  overflow: hidden;
+}
+
+.topnav a {
+  float: left;
+  /* color: #f2f2f2; */
+  text-align: center;
+  padding: 10px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.topnav a:hover {
+  /* background-color: #ddd; */
+  color: black;
+}
+
+.topnav a.active {
+  /* background-color: #4CAF50; */
+  color: white;
+}
+
+.topnav Link:hover {
+  /* background-color: #ddd; */
+  color: black;
+}
+
+.topnav Link.active {
+  /* background-color: #4CAF50; */
+  color: white;
+}
+
+.topnav-right {
+  float: right;
+}

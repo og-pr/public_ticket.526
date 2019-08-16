@@ -1,0 +1,25 @@
+export const TEXT_LOGIN_CAPS = 'LOGIN'
+export const TEXT_SIGNUP_CAPS = 'SIGNUP'
+
+export const PAGE_HOME = 'Home Page'
+export const PAGE_ABOUT = 'About Page'
+export const PAGE_LOGOUT = 'You are logged out'
+export const PAGE_LANDING = 'Landing Page - Hello'
+
+export const UX_NEW_LINE = '\n'
+export const FB_USER_NOT_FOUND = 'auth/user-not-found'
+export const UX_USER_NOT_FOUND = '\nUser Not Found. If typo, try again.\n' 
+
+export const UX_LOGIN = 'Already have an account, Login'
+export const UX_SIGNUP_WEB = 'No account ? '
+export const UX_SIGNUP_MOBILE = 'No account ? Register'
+
+export const TEXT_HOME = 'Home'
+export const TEXT_ABOUT = 'About'
+export const TEXT_LOGIN = 'Login'
+export const TEXT_SIGNUP = 'Signup'
+export const TEXT_LOGOUT = 'Logout'
+export const TEXT_LANDING = 'Landing'
+export const TEXT_PLEASE = 'Please enter'
+export const TEXT_CREATE_ACCOUNT = 'Create Account'
+export const TEXT_HOME_PAGE = 'The Home Page is accessible by users who are new or just registered and user who are authenticated by the Firebase Database.'

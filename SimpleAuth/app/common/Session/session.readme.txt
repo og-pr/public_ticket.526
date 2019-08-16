@@ -1,0 +1,7 @@
+Session Folder
+
+* All files are common except
+
+	** withAuthenticationLs.js for Web
+	** withAuthenticationAs.js for Mobile
+	

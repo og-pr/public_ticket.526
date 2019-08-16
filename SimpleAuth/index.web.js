@@ -4,5 +4,3 @@ import App from './app/components/App'; // new = part of monorepo
 
 // Render is @ App = not needed here
 //ReactDOM.render(<App/>, document.getElementById('root')); // is loaded @ app/web/index.js
-
-console.log('o.log > index.web.js called')
