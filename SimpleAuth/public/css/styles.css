@@ -1,5 +1,4 @@
 *, *:before, *:after {
-  /* box-sizing: inherit; */
   box-sizing: border-box;
 }
 
@@ -9,7 +8,7 @@ html {
     line-height: 1.6;
     max-width: 1000px !important; 
     padding: 0;
-    box-sizing: border-box; /* apply a natural box layout model to all elements, but allowing components to change */
+    box-sizing: border-box; /* apply a natural box layout model to all elements, but allow components to change */
     margin: auto;
     max-width: 100%; /* avoid scrollbar */ 
     height: 100%; /* avoid scrollbar */
@@ -43,32 +42,22 @@ form {
 
 input{
     font-size: inherit;
-    display: block; /* was inline-block */
+    display: block; 
     padding: 12px 20px;
     border: solid 1px #aacfe4;
-    width: 450px; /* was 90%; */
+    width: 450px; /* was 90% - is better to be explicit for control of UI elements ; */
     margin: 8px 0;
     box-sizing: border-box;
 }
 
-/* ************************************************************************** */
-
-/* Show red borders when filled, but invalid */
-/* per https://zellwk.com/blog/check-empty-input-css/ */
 input:not(:placeholder-shown) {
   border-color: hsl(0, 76%, 50%);;
 }
 
-/* Show green borders when valid */
 input:valid {
   border-color: hsl(120, 76%, 50%);
 }
 
-/* author has nice border background per https://codepen.io/zellwk/pen/NeRaPw */
-
-/* ************************************************************************** */
-
-/* from RandomImage */
 .button {
   border: none;
   color: white;
@@ -80,7 +69,7 @@ input:valid {
 }
 
 .buttonStyle {
-  width: 100px; /* set width */
+  width: 100px; /* set width = is better to be explicit for control of UI elements */
   background-color: #1346b8;
   padding: 10px;
   border: 0;
@@ -95,18 +84,15 @@ input:valid {
   text-align: center;
 }
 
-/* style matches mobile per https://www.w3schools.com/css/css3_buttons.asp */
 .formButton {
   background-color: #007BFF; /* Blue */
   border: none;
   color: white;
   width: 100px;
-  /* padding: 15px 32px; */
   padding: 15px;
   text-align: center;
   text-decoration: none;
   display: inline-block;
-  /* font-size: 16px; */
 }
 
 .formButtonText {
@@ -202,9 +188,6 @@ input:valid {
     text-align: center;
 }
 
-/* ************************************************************************** */
-
-/* form validation per https://medium.com/front-end-weekly/html5-form-validation-in-react-65712f778196 */
 .was-validated .form-control:valid~.invalid-feedback {
     display: none;
 }
@@ -212,7 +195,6 @@ input:valid {
 .textRed {
     color: red;
 }
-/* ************************************************************************** */
 
 .title {
     color: #000000;
@@ -220,10 +202,8 @@ input:valid {
     margin-bottom: 32px;
 }
 
-/* topnav ref = https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_topnav_right */
 .topnav {
   overflow: hidden;
-  /* background-color: #333; */
 }
 
 .topnav a {
@@ -258,5 +238,3 @@ input:valid {
 .topnav-right {
   float: right;
 }
-
-/* ************************************************************************** */
