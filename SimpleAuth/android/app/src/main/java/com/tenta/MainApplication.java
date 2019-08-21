@@ -1,4 +1,4 @@
-package com.tenta;
+package com.SimpleAuth;
 
 import android.app.Application;
 import android.util.Log;
