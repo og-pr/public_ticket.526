@@ -43,8 +43,9 @@ For each platform, from the root directory, do
 Screenshots
 ===========
 ![Screenshot - all](https://github.com/og-pr/public_ticket.526/blob/master/SimpleAuth/_docs/monorepo_all.png)
-* TBD_2
-* TBD_3
+![Animated GIF - iOS](https://github.com/og-pr/public_ticket.526/blob/master/SimpleAuth/_docs/ezgif-720_ios.gif)
+![Animated GIF - Web](https://github.com/og-pr/public_ticket.526/blob/master/SimpleAuth/_docs/ezgif-720_web.gif)
+![Animated GIF - Android](https://github.com/og-pr/public_ticket.526/blob/master/SimpleAuth/_docs/ezgif-720_android.gif)
 
 
 
