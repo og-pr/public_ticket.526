@@ -82,7 +82,7 @@ class LoginFormBase extends Component {
           {CONSTANTS.TEXT_LOGIN}
         </button>
 
-        <p className='textCenter'>{CONSTANTS.UX_SIGNUP_WEB}<Link to={ROUTES.SIGNUP}>{CONSTANTS.TEXT_SIGNUP}</Link></p>
+        <p className='textCenter'>{CONSTANTS.UX_SIGNUP_WEB}<Link to={ROUTES.SIGNUP}>{CONSTANTS.TEXT_REGISTER}</Link></p>
 
         <span className='textRed'>{error && <p>{error.message}</p>}</span>
       </form>
