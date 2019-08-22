@@ -33,6 +33,7 @@ const INITIAL_STATE = {
   email: '',
   passwordOne: '',
   passwordTwo: '',
+  isAdmin: false,
   error: null,
 };
 
@@ -120,7 +121,7 @@ class SignupFormBase extends Component {
   }
 
   onSubmit = event => {
-    const { username, email, passwordOne, passwordTwo } = this.state;
+    const { username, email, passwordOne, passwordTwo, isAdmin } = this.state;
 
     const roles = {};
 
@@ -158,7 +159,7 @@ class SignupFormBase extends Component {
   };
 
   render() {
-    const { username, email, passwordOne, passwordTwo, error } = this.state;
+    const { username, email, passwordOne, passwordTwo, error, isAdmin } = this.state;
 
     const isInvalid =
       passwordOne !== passwordTwo ||
