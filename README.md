@@ -40,9 +40,8 @@ For each platform, from the root directory, do
 ### iOS
 * ```react-native run-ios``` or open ```ios/RandomImage.xcodeproj``` with Xcode
 
-Screenshots
+Animated GIFs
 ===========
-![Screenshot - all](https://github.com/og-pr/public_ticket.526/blob/master/SimpleAuth/_docs/monorepo_all.png)
 ![Animated GIF - iOS](https://github.com/og-pr/public_ticket.526/blob/master/SimpleAuth/_docs/ezgif-720_ios.gif)
 ![Animated GIF - Web](https://github.com/og-pr/public_ticket.526/blob/master/SimpleAuth/_docs/ezgif-720_web.gif)
 ![Animated GIF - Android](https://github.com/og-pr/public_ticket.526/blob/master/SimpleAuth/_docs/ezgif-720_android.gif)
@@ -52,7 +51,9 @@ Screenshots
 Notes - Development 
 ===========
 * [React Router](https://github.com/ReactTraining/react-router) aka 1 package is used as navigational components 
-* Social Logins for [web](https://www.robinwieruch.de/react-firebase-link-social-logins/) & [mobile](https://medium.com/@chrisbianca/getting-started-with-firebase-authentication-on-react-native-a1ed3d2d6d91)  and [Password Resets](https://firebase.google.com/docs/auth/web/manage-users#set_a_users_password) , left as excercise to repo user.
+* Social Logins for [web](https://www.robinwieruch.de/react-firebase-link-social-logins/) & [mobile](https://medium.com/@chrisbianca/getting-started-with-firebase-authentication-on-react-native-a1ed3d2d6d91)  and [Password Resets](https://firebase.google.com/docs/auth/web/manage-users#set_a_users_password) , left as exercise to repo user
+* Form Input Error checking is basic ; it can be refactored for [web](https://codeburst.io/how-to-use-html5-form-validations-with-react-4052eda9a1d4) & [mobile](https://codeburst.io/react-native-and-forms-part-2-555ee4571550) as exercise to repo user
+* LocalStorage API for [Web](https://developer.mozilla.org/en-US/docs/Web/API/Web_Storage_API) & Async-Storage API for [Mobile](https://github.com/react-native-community/async-storage) used in Firebase & Session components
 
 
 Notes - Miscellaneous 
@@ -62,6 +63,6 @@ Notes - Miscellaneous
 
 Inspiration
 ===========
-* [A Firebase in React Tutorial](https://www.robinwieruch.de/complete-firebase-authentication-react-tutorial/)
-* [Integrating Firebase with React Native](https://blog.jscrambler.com/integrating-firebase-with-react-native/)
+* [A Firebase in React Tutorial](https://www.robinwieruch.de/complete-firebase-authentication-react-tutorial/) (is for Web)
+* [Integrating Firebase with React Native](https://blog.jscrambler.com/integrating-firebase-with-react-native/) (is for Mobile)
 
