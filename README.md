@@ -42,7 +42,7 @@ For each platform, from the root directory, do
 
 Screenshots
 ===========
-* TBD_1
+![Screenshot - all](https://github.com/og-pr/public_ticket.526/blob/master/SimpleAuth/_docs/monorepo_all.png)
 * TBD_2
 * TBD_3
 
