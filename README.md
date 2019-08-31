@@ -48,14 +48,14 @@ Animated GIFs
 
 
 
-Notes - Development 
+Notes - Development 2017
 ===========
+* [Email verification](https://firebase.googleblog.com//02/email-verification-in-firebase-auth.html) not used to keep thing simple
 * Button is common CSS ; it is not a React Component
-* [React Router](https://github.com/ReactTraining/react-router) aka 1 package is used as Navigational Components 
+* [React Router](https://github.com/ReactTraining/react-router) aka 1 package used as Navigational Components 
 * Social Logins for [web](https://www.robinwieruch.de/react-firebase-link-social-logins/) & [mobile](https://medium.com/@chrisbianca/getting-started-with-firebase-authentication-on-react-native-a1ed3d2d6d91)  and [Password Resets](https://firebase.google.com/docs/auth/web/manage-users#set_a_users_password) , left as exercise to repo user
-* Form Input Error checking is basic ; it can be refactored for [web](https://codeburst.io/how-to-use-html5-form-validations-with-react-4052eda9a1d4) & [mobile](https://codeburst.io/react-native-and-forms-part-2-555ee4571550) as exercise to repo user
+* Form Input Error checking is basic ; repo user can refactor for [web](https://codeburst.io/how-to-use-html5-form-validations-with-react-4052eda9a1d4) & [mobile](https://codeburst.io/react-native-and-forms-part-2-555ee4571550) as needed
 * LocalStorage API for [Web](https://developer.mozilla.org/en-US/docs/Web/API/Web_Storage_API) & Async-Storage API for [Mobile](https://github.com/react-native-community/async-storage) used in Firebase & Session Components
-
 
 Notes - Miscellaneous 
 =====
