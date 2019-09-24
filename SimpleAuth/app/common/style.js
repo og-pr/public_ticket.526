@@ -151,7 +151,7 @@ const Styles = StyleSheet.create({
         color: "red", 
         padding: 2,
     },
-        textRegular: {
+    textRegular: {
         alignItems: 'center',
         alignSelf: 'center',
         color: '#000',

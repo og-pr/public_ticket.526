@@ -48,7 +48,7 @@ Animated GIFs
 
 
 
-Notes - Development 2017
+Notes - Development
 ===========
 * To keep code simple, [Email verification](https://firebase.googleblog.com//02/email-verification-in-firebase-auth.html) not used 
 * Button is common CSS ; it is not a React Component
