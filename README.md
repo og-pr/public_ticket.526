@@ -50,7 +50,7 @@ Animated GIFs
 
 Notes - Development
 ===========
-* To keep code simple, [Email verification](https://firebase.googleblog.com//02/email-verification-in-firebase-auth.html) not used 
+* To keep code simple, [Email verification](https://firebase.googleblog.com/2017/02/email-verification-in-firebase-auth.html) not used 
 * Button is common CSS ; it is not a React Component
 * [React Router](https://github.com/ReactTraining/react-router) aka 1 package used as Navigational Components 
 * Social Logins for [web](https://www.robinwieruch.de/react-firebase-link-social-logins/) & [mobile](https://medium.com/@chrisbianca/getting-started-with-firebase-authentication-on-react-native-a1ed3d2d6d91)  and [Password Resets](https://firebase.google.com/docs/auth/web/manage-users#set_a_users_password) , left as exercise to repo user
