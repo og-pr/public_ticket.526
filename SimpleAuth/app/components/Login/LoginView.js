@@ -65,7 +65,7 @@ class LoginFormBase extends Component {
           onChange={this.onChange}
           type="text"
           placeholder="Email Address"
-          pattern=".*\S.*"
+          pattern=".*\S.*" // note: could be upgraded via refactor to [a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$
         />
         
         <input
